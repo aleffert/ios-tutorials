@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "MeowViewController.h"
+
 @implementation ViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -40,6 +42,13 @@
         
     }];
     [task resume];
+}
+
+
+- (IBAction)meow:(id)sender {
+    NSLog(@"meow");
+    MeowViewController* meowController = [[MeowViewController alloc] init];
+    [self.navigationController pushViewController:meowController  animated:YES];
 }
 
 

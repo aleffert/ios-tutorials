@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		770A3D3B1AEE9A71008F09D9 /* MeowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A3D3A1AEE9A71008F09D9 /* MeowViewController.m */; };
+		770A3D3D1AEE9D36008F09D9 /* paws.png in Resources */ = {isa = PBXBuildFile; fileRef = 770A3D3C1AEE9D36008F09D9 /* paws.png */; };
+		770A3D3F1AEEA065008F09D9 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 770A3D3E1AEEA065008F09D9 /* meow.m4a */; };
 		775A5DD81AB73BDC00912F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 775A5DD71AB73BDC00912F79 /* main.m */; };
 		775A5DDB1AB73BDC00912F79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 775A5DDA1AB73BDC00912F79 /* AppDelegate.m */; };
 		775A5DDE1AB73BDC00912F79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775A5DDD1AB73BDC00912F79 /* ViewController.m */; };
@@ -27,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		770A3D391AEE9A71008F09D9 /* MeowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeowViewController.h; sourceTree = "<group>"; };
+		770A3D3A1AEE9A71008F09D9 /* MeowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeowViewController.m; sourceTree = "<group>"; };
+		770A3D3C1AEE9D36008F09D9 /* paws.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paws.png; path = Resources/paws.png; sourceTree = "<group>"; };
+		770A3D3E1AEEA065008F09D9 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = meow.m4a; path = Resources/meow.m4a; sourceTree = "<group>"; };
 		775A5DD21AB73BDC00912F79 /* KittenDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittenDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		775A5DD61AB73BDC00912F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		775A5DD71AB73BDC00912F79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,7 +91,11 @@
 				775A5DD91AB73BDC00912F79 /* AppDelegate.h */,
 				775A5DDA1AB73BDC00912F79 /* AppDelegate.m */,
 				775A5DDC1AB73BDC00912F79 /* ViewController.h */,
+				770A3D391AEE9A71008F09D9 /* MeowViewController.h */,
+				770A3D3A1AEE9A71008F09D9 /* MeowViewController.m */,
 				775A5DDD1AB73BDC00912F79 /* ViewController.m */,
+				770A3D3C1AEE9D36008F09D9 /* paws.png */,
+				770A3D3E1AEEA065008F09D9 /* meow.m4a */,
 				775A5DDF1AB73BDC00912F79 /* Main.storyboard */,
 				775A5DE21AB73BDC00912F79 /* Images.xcassets */,
 				775A5DE41AB73BDC00912F79 /* LaunchScreen.xib */,
@@ -201,6 +212,8 @@
 			files = (
 				775A5DE11AB73BDC00912F79 /* Main.storyboard in Resources */,
 				775A5DE61AB73BDC00912F79 /* LaunchScreen.xib in Resources */,
+				770A3D3D1AEE9D36008F09D9 /* paws.png in Resources */,
+				770A3D3F1AEEA065008F09D9 /* meow.m4a in Resources */,
 				775A5DE31AB73BDC00912F79 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +234,7 @@
 			files = (
 				775A5DDE1AB73BDC00912F79 /* ViewController.m in Sources */,
 				775A5DDB1AB73BDC00912F79 /* AppDelegate.m in Sources */,
+				770A3D3B1AEE9A71008F09D9 /* MeowViewController.m in Sources */,
 				775A5DD81AB73BDC00912F79 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +426,7 @@
 				775A5DF71AB73BDC00912F79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		775A5DF81AB73BDC00912F79 /* Build configuration list for PBXNativeTarget "KittenDownloaderTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				775A5DFA1AB73BDC00912F79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
